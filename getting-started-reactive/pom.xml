@@ -32,6 +32,13 @@
     </dependencyManagement>
 
     <dependencies>
+        <!-- Marc added https://mvnrepository.com/artifact/com.dynatrace.oneagent.sdk.java/oneagent-sdk  -->
+        <dependency>
+                  <groupId>com.dynatrace.oneagent.sdk.java</groupId>
+                  <artifactId>oneagent-sdk</artifactId>
+                  <version>1.7.0</version>
+                  <scope>compile</scope>
+        </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-resteasy</artifactId>
